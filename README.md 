@@ -10,10 +10,10 @@ NER and relation extraction from PubMed abstracts using BC5CDR dataset and PubMe
 2. Create a virtual environment:
    uv venv
 
-3. Activate it:
-   Mac/Linux: source .venv/bin/activate
+3. Activate it (Mac/Linux):
+source .venv/bin/activate
 
 4. Install dependencies:
-   uv pip install -r requirements.txt
+   uv sync
 
 5. Open notebooks in VS Code and select the Med_IE_System kernel.

@@ -6,11 +6,13 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "accelerate>=1.12.0",
+    "bioc>=2.1",
     "datasets<2.20",
     "ipykernel>=7.2.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
     "pandas>=3.0.1",
+    "rank-bm25>=0.2.2",
     "scikit-learn>=1.8.0",
     "seqeval>=1.2.2",
     "torch>=2.10.0",
